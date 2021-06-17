@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-gap: 5px; */
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(31, 30, 30, 0.856);
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 15px;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-gap: 5px; */
+  /* background-color: #2196F3; */
+  padding: 15px;
+}
+
+.grid-container2 > div {
+  background-color: rgba(31, 30, 30, 0.856);
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 15px;
+}
+header{
+  background-image:linear-gradient(rgba(31, 30, 30, 0.856),rgba(31, 30, 30, 0.856)), url(mohammad.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+header div ul{
+  float: left;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header div ul li{
+  display: inline-block;
+}
+header div ul li a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+header div ul li a:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(32, 31, 31);
+}
+header div ul li.active a{
+  background-color: rgb(255, 255, 255);
+  color: rgb(32, 31, 31);
+}
+.main{
+  padding: 16px;
+  height: 1500px;
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.title h1{
+  color: #fff;
+  font-size: 60px;
+}
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6 ease;
+}
+.btn:hover{
+  background-color: #fff;
+  color: rgb(31, 30, 30, 0.856);
+}
+.name{
+  position: absolute;
+  top: 7%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+}
+.nam{
+  border: transparent;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6 ease;
+}
+.name a{
+  font-size: 17px;
+}
+.nam:hover{
+  background-color: #fff;
+  color: rgb(31, 30, 30, 0.856);
+}
+
+.hobbies{
+  text-align: center;
+  background-image:linear-gradient(rgba(31, 30, 30, 0.856),rgba(31, 30, 30, 0.856)), url(hobby.jpg);
+  /* height: 100vh; */
+  background-size: cover;
+  color: white;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 150%;
+}
+.service{
+  text-align: center;
+  background-image:linear-gradient(rgba(31, 30, 30, 0.856),rgba(31, 30, 30, 0.856)), url(service.png);
+  /* height: 100vh; */
+  background-size: cover;
+  color: white;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 150%;
+}
+.service div div h1{
+  color: rgb(255, 255, 255);
+}
+.portpolio{
+  text-align: center;
+  background-image:linear-gradient(rgba(31, 30, 30, 0.856),rgba(31, 30, 30, 0.856)), url(portpolio.jpg);
+  /* height: 100vh; */
+  background-size: cover;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 150%;
+}
+.portpolio div div h1{
+  color: rgb(255, 255, 255);
+}
+.contact{
+  text-align: center;
+  background-image:linear-gradient(rgba(31, 30, 30, 0.856),rgba(31, 30, 30, 0.856)), url(contact.jpg);
+  /* height: 62vh; */
+  background-size: cover;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 150%;
+  color: #fff;
+}
+.contact div div h1{
+  color: rgb(255, 255, 255);
+}
+.Pinfo{
+  text-align: center;
+  background-image:linear-gradient(rgba(31, 30, 30, 0.856),rgba(31, 30, 30, 0.856)), url(personal.png);
+  /* height: 200vh; */
+  background-size: cover;
+  background-position: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 150%;
+  color: white;
+}
+ul.info{
+  list-style-type: circle;
+  background-color: rgb(31, 30, 30, 0.856);
+}
+.hobby{
+  text-align: center;
+}
+div ol.game {
+  list-style-type: upper-roman !important;
+  list-style-position: inside;
+  font-size: 150%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
